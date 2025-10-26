@@ -6,6 +6,18 @@
 
 Site-to-site VPN over ISP MPLS backbone with VRF-aware IPsec at PE-CE boundaries. PE routers exchange routes via BGP VPNv4 while MPLS provides label switching in the provider core.
 
+## Lab Environment
+
+Hypervisor: VMware Workstation Pro
+Network Emulator: EVE-NG Community Edition
+Base OS: Ubuntu 22.04 LTS
+Router Platform: Cisco IOL (IOS on Linux)
+IOS Version: 15.x
+
+Topology:
+See topology.png for network diagram and device connections.
+All configurations have been tested and verified in this environment.
+
 ## Configs
 
 - [CE1.cfg](CE1.cfg) - Customer Edge (Site A)
