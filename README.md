@@ -8,6 +8,8 @@ Site-to-site VPN over ISP MPLS backbone with VRF-aware IPsec at PE-CE boundaries
 
 ## Lab Environment
 
+Emulation Platform:
+
 Hypervisor: VMware Workstation Pro
 Network Emulator: EVE-NG Community Edition
 Base OS: Ubuntu 22.04 LTS
